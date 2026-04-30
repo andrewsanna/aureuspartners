@@ -424,7 +424,7 @@ h2 em {
   font-family: var(--serif);
   font-size: 22px;
   font-weight: 400;
-  color: var(--ink);
+  color: var(--white);
   display: block;
 }
 .founder-img-title {
