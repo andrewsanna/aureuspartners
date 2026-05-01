@@ -40,8 +40,6 @@ document.addEventListener('DOMContentLoaded', function () {
   // function with a fetch() call to your endpoint (e.g. Formspree,
   // Netlify Forms, or a custom API).
   const form = document.getElementById('contact-form');
-
   
-  }
 
 });
