@@ -41,19 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Netlify Forms, or a custom API).
   const form = document.getElementById('contact-form');
 
-  if (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-
-      const btn = form.querySelector('.cf-submit');
-      btn.textContent = 'Message Sent';
-      btn.style.opacity = '0.5';
-      btn.disabled = true;
-
-      // Example: to use Formspree, set your form action to:
-      // <form id="contact-form" action="https://formspree.io/f/YOUR_ID" method="POST">
-      // and remove this JS submit handler — Formspree handles it.
-    });
+  
   }
 
 });
